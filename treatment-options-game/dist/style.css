@@ -1,0 +1,84 @@
+body {
+   background: #d9ffc5;
+}
+
+.map {
+   position: relative;
+   background-image: url(https://dinosaurgameimages.s3.us-east-2.amazonaws.com/bleeding-finger.jpg);
+   width: calc(192px * 5);
+   height: calc(144px * 4.4);
+   background-size: 100%;
+   margin: 1em auto 0 auto;
+}
+
+.pixelart {
+   image-rendering: auto;
+}
+
+.treatmentOptions {
+  cursor: pointer;
+  position: absolute;
+  background-image: url(https://items-wound.s3.us-east-2.amazonaws.com/treatmentOptions.png);
+   width: 100px;
+   height: 100px;
+   background-size: 333%;
+}
+.treatmentOptions.treatment {
+   background-position-x: 100%;
+}
+
+.treatment1 {
+   left: 70px;
+   top: 100px;
+  background-position-x: 65.5%;
+}
+.treatment1.rescued {
+   left: 700px;
+   top: 70px;
+}
+
+.treatment2 {
+   left: 210px;
+   top: 100px;
+   background-position-x: .3%;
+  background-size: 1000%;
+}
+.treatment2.rescued {
+   left: 700px;
+   top: 210px;
+}
+
+.treatment3 {
+   left: 350px;
+   top: 100px;
+   background-position-x: 16.6%;
+}
+.treatment3.rescued {
+   left: 700px;
+   top: 350px;
+}
+
+.treatment4 {
+   left: 490px;
+   top: 100px;
+   background-position-x: 98%;
+  background-size: 500%;
+}
+.treatment4.rescued {
+   left: 700px;
+   top: 490px;
+}
+
+.text-container {
+   display: flex;
+   justify-content: center;
+}
+.text-container p {
+   text-align: center;
+   font-family: 'Press Start 2P', cursive;
+   background: #000;
+   color: #fff;
+   padding: 1em;
+   margin: 0;
+   font-size: 1.1em;
+}
